@@ -156,4 +156,9 @@ RAZORPAY_KEY = "your_razorpay_key"
 Access the application in your browser at `http://localhost:3000`.
 
 
+## 👥 Team Members
+1. Laxman Kumar Ganesh
+2. Md Kaif Alam
+3. Nishant Mishra
+4. Kunal Kumar
 
