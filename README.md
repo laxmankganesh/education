@@ -106,6 +106,32 @@ The StudyNotion platform's API is designed following the REST architectural styl
 
 For detailed API documentation and endpoints, refer to the [API Documentation](/api-docs).
 
+Set Up Environment Variables:
+Create a `.env` file in the server directory with the following variables:
+
+```env
+MONGODB_URL = "your_mongodb_connection_string"
+PORT = 4000
+
+# Cloudinary Configuration
+CLOUD_NAME = "your_cloud_name"
+API_KEY = "your_cloudinary_api_key"
+API_SECRET = "your_cloudinary_api_secret"
+
+# Email Configuration
+MAIL_HOST = "smtp.gmail.com"
+MAIL_USER = "your_email@gmail.com"
+MAIL_PASS = "your_email_app_password"
+
+# JWT Configuration
+JWT_SECRET = "your_jwt_secret"
+FOLDER_NAME = "StudyNotion"
+
+# Razorpay Configuration
+RAZORPAY_SECRET = "your_razorpay_secret"
+RAZORPAY_KEY = "your_razorpay_key"
+```
+
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/username/repo.git`
